@@ -2,9 +2,10 @@
 #include <stdbool.h>
 int main ()
 {
-    bool a = 1;
-
-    printf("data = %d" , a);
+    char a = 'b';
+    a = 'c';
+    printf("char = %c\n" , a);
+    printf("data = %b" , a);
     
     return 0;
 }
